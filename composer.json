@@ -1,5 +1,5 @@
 {
-	"name": "{{THEME_SLUG}}",
+	"name": "{{GITHUB_ORG}}/{{REPO_NAME}}",
 	"description": "{{THEME_DESCRIPTION}}",
 	"type": "wordpress-theme",
 	"license": "GPL-2.0-or-later",
