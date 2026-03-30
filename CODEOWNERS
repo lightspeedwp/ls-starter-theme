@@ -1,0 +1,21 @@
+# {{GITHUB_ORG}}/{{REPO_NAME}} CODEOWNERS
+
+# Default owner for all files
+* @{{GITHUB_ORG}}/developers
+
+# Theme core files
+style.css @{{GITHUB_ORG}}/developers
+theme.json @{{GITHUB_ORG}}/developers
+functions.php @{{GITHUB_ORG}}/developers
+
+# AI guidance files
+AGENTS.md @{{GITHUB_ORG}}/developers
+CLAUDE.md @{{GITHUB_ORG}}/developers
+.github/copilot-instructions.md @{{GITHUB_ORG}}/developers
+
+# GitHub Actions workflows
+.github/workflows/ @{{GITHUB_ORG}}/developers
+
+# Composer and Node config
+composer.json @{{GITHUB_ORG}}/developers
+package.json @{{GITHUB_ORG}}/developers
