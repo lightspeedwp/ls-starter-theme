@@ -37,19 +37,21 @@ function ls_starter_enqueue_assets() {
 	// Main stylesheet (the theme header stylesheet is loaded automatically).
 	// Uncomment when assets/css/main.css exists:
 	// wp_enqueue_style(
-	// 	'{{TEXT_DOMAIN}}-main',
-	// 	get_template_directory_uri() . '/assets/css/main.css',
-	// 	array(),
-	// 	wp_get_theme()->get( 'Version' )
+	// '{{TEXT_DOMAIN}}-main',
+	// get_template_directory_uri() . '/assets/css/main.css',
+	// array(),
+	// wp_get_theme()->get( 'Version' )
+	// phpcs:ignore Squiz.Commenting.InlineComment.InvalidEndChar -- commented-out code, not a prose sentence.
 	// );
 
 	// Main JavaScript. Uncomment when assets/js/main.js exists:
 	// wp_enqueue_script(
-	// 	'{{TEXT_DOMAIN}}-main',
-	// 	get_template_directory_uri() . '/assets/js/main.js',
-	// 	array(),
-	// 	wp_get_theme()->get( 'Version' ),
-	// 	true
+	// '{{TEXT_DOMAIN}}-main',
+	// get_template_directory_uri() . '/assets/js/main.js',
+	// array(),
+	// wp_get_theme()->get( 'Version' ),
+	// true
+	// phpcs:ignore Squiz.Commenting.InlineComment.InvalidEndChar -- commented-out code, not a prose sentence.
 	// );
 }
 add_action( 'wp_enqueue_scripts', 'ls_starter_enqueue_assets' );
