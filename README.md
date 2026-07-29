@@ -177,6 +177,8 @@ Search for `{{` across the repository and replace all placeholder tokens:
 | `{{REPO_NAME}}`          | GitHub repository name              |
 | `{{GITHUB_ORG}}`         | GitHub organisation name            |
 
+The `name` field in `package.json` and `composer.json` ships with a valid default (not a placeholder) — update it when scaffolding, no token to search and replace.
+
 ---
 
 ## What to Edit First
