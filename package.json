@@ -1,5 +1,5 @@
 {
-	"name": "{{THEME_SLUG}}",
+	"name": "ls-starter-theme",
 	"version": "0.1.0",
 	"description": "{{THEME_DESCRIPTION}}",
 	"type": "module",
@@ -16,7 +16,7 @@
 		"glob": "^11.0.1"
 	},
 	"engines": {
-		"node": ">=20.0.0"
+		"node": ">=24.0.0"
 	},
 	"private": true
 }

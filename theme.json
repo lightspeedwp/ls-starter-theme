@@ -13,8 +13,7 @@
 				"mediumStep": 1.5,
 				"unit": "rem",
 				"operator": "*",
-				"increment": 1.5,
-				"customScale": false
+				"increment": 1.5
 			},
 			"spacingSizes": [
 				{
