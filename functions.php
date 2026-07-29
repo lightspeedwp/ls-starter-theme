@@ -41,8 +41,7 @@ function ls_starter_enqueue_assets() {
 	// get_template_directory_uri() . '/assets/css/main.css',
 	// array(),
 	// wp_get_theme()->get( 'Version' )
-	// phpcs:ignore Squiz.Commenting.InlineComment.InvalidEndChar -- commented-out code, not a prose sentence.
-	// );
+	// );.
 
 	// Main JavaScript. Uncomment when assets/js/main.js exists:
 	// wp_enqueue_script(
@@ -51,7 +50,6 @@ function ls_starter_enqueue_assets() {
 	// array(),
 	// wp_get_theme()->get( 'Version' ),
 	// true
-	// phpcs:ignore Squiz.Commenting.InlineComment.InvalidEndChar -- commented-out code, not a prose sentence.
-	// );
+	// );.
 }
 add_action( 'wp_enqueue_scripts', 'ls_starter_enqueue_assets' );
