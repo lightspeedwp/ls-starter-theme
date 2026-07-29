@@ -179,6 +179,15 @@ Search for `{{` across the repository and replace all placeholder tokens:
 
 The `name` field in `package.json` and `composer.json` ships with a valid default (not a placeholder) — update it when scaffolding, no token to search and replace.
 
+PHP function and constant names can't be `{{...}}` tokens (that isn't valid PHP), so they use a plain placeholder prefix instead — replace this alongside the `{{...}}` tokens above:
+
+| Prefix           | Replace with                                             |
+|------------------|-----------------------------------------------------------|
+| `ls_starter_`    | Function prefix, e.g. `ls_starter_setup` (snake_case slug) |
+| `LS_STARTER_`    | Constant prefix, if any constants are added (SCREAMING_SNAKE_CASE slug) |
+
+`{{TEXT_DOMAIN}}` itself is only the text domain string (translations, `Text Domain` header) — it is no longer reused as the function prefix.
+
 ---
 
 ## What to Edit First
