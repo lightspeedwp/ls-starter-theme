@@ -13,3 +13,25 @@ License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:       {{TEXT_DOMAIN}}
 Tags:              block-theme, full-site-editing, custom-colors, custom-typography
 */
+
+/* Skip link: visible only when focused (keyboard / AT users).
+ * Keep legacy `clip` alongside `clip-path` so focus reveal still works when
+ * WordPress 6.4–6.7 screen-reader-text styles set clip: rect(...).
+ */
+.skip-link:focus {
+  /* stylelint-disable-next-line property-no-deprecated -- WP 6.4–6.7 compat */
+  clip: auto !important;
+  clip-path: none !important;
+  height: auto !important;
+  width: auto !important;
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  z-index: 100000;
+  padding: 0.75rem 1rem;
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
